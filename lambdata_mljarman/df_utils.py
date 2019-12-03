@@ -1,6 +1,11 @@
 """
 Utility functions for working specifically with DataFrames
 """
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+
+
 # sample dataset:
 SAMPLE_DF = pd.DataFrame(np.random.randint(0, 50, size=(10, 4)),
                                            columns=list('ABCD'))
