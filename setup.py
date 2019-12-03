@@ -26,3 +26,4 @@ with open("README.md", "r") as fh:
     "Operating System :: OS Independent",
     ]
     )
+ 
