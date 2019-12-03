@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
     name="lambdata-mljarman",
-    version = "0.1.1",
+    version = "0.1.2",
     author = "mljarman",
     description = "a collection of data science helper functions",
     long_description = LONG_DESCRIPTION,
@@ -26,4 +26,3 @@ with open("README.md", "r") as fh:
     "Operating System :: OS Independent",
     ]
     )
- 
