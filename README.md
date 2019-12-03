@@ -1,2 +1,2 @@
-# lambdata_DS9
-creating a package.
+# lambdata_mljarman
+a collection of data science helper functions.
