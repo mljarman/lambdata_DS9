@@ -21,7 +21,6 @@ def date_splitter(df, column):
     df['month'] = df[column].dt.month
     df['day'] = df[column].dt.day
 
-
 def set_splits(df, train_percent=.6, val_percent=.2, test_percent=.2,
                Random_State=None):
     """
