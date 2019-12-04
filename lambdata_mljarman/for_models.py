@@ -3,7 +3,7 @@ Utility functions for preparing to run models on data.
 """
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+
 
 def set_splits(df, train_percent=.6, val_percent=.2, test_percent=.2,
                Random_State=None):
