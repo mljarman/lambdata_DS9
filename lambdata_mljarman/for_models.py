@@ -23,6 +23,6 @@ class Model_Prep:
         """
         np.random.seed(self.random_state)
         percent = self.train_percent + self.val_percent
-        train, val, test = np.split(df.sample(frac=1), [int(self.train_percent*
-                                                        len(self.df)),int(percent*len(df))])
+        train, val, test = np.split(self.df.sample(frac=1), [int(self.train_percent*
+                                                        len(self.df)),int(percent*len(self.df))])
         return train, val, test

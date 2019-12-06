@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 #import different pages so don't need to do it separately.
-import lambdata_mljarman.df_utils
-import lambdata_mljarman.for_models
+# import lambdata_mljarman.df_utils
+# import lambdata_mljarman.for_models
 
 # sample data:
 ONES = pd.DataFrame(np.ones(10))
