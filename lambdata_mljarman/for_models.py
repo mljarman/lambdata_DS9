@@ -19,7 +19,7 @@ class Model_Prep:
 
     def set_splits(self):
         """
-        method to split data into train, test, val sets.
+        Method to split data into train, test, val sets.
         """
         np.random.seed(self.random_state)
         percent = self.train_percent + self.val_percent
